@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Query Form Page</title>
+    <link rel="stylesheet" href="QueryFormPage.css">
+    
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo"><img src="logo1.jpg" alt=""></div>
+            <nav>
+            <ul>
+                <li><a href="../MainPage/MainPage.html">Home</a></li>
+                <li><a href="../MyCVPage/MyCVPage.html">My CV</a></li>
+                <li><a href="../IdealJobsPage/IdealJobsPage.html">Ideal Job</a></li>                           
+                <li><a href="../QueryFormPage/QueryFormPage.html">Query form</a></li>
+                <li><a href="../SitemapPage/SitemapPage.html">Site Map</a></li>
+            </ul>
+            </nav>
+        </div>
+        <br>
+        <br>
+        <form id="QueryForm">
+            <fieldset>
+                <legend>Query Form</legend>
+                <div class="content">
+                    <label for="input_name">Enter your name:</label>
+                    <input type="text" name="name" id="input_name">
+                </div>
+                <div class="content">
+                    <label for="input_email">Enter your email:</label>
+                    <input type="email" id="input_email" name="email">
+                </div>
+                <div class="content">
+                    <label for="input_subject">Select Subject:</label>
+                    <select id="input_subject" name="subject">
+                    <option value="">-- Choose an option --</option>
+                    <option value="programming experience">Programming Experience</option>
+                    <option value="management experience">Management Experience</option>
+                    <option value="other experience">Other Experience</option>
+                    <option value="transferable skills">Transferable Skills</option>
+                    </select>
+                </div>
+                <div class="content">
+                    <label for="input_details">Enter any other details:</label>
+                    <textarea name="detail" id="input_details" rows="3"></textarea>
+                </div>
+                <button type="button" onclick="checkForm()">View Query</button>
+            </fieldset>
+        </form>
+        <br><br>
+        <div class="sum" id="summary"></div>
+        <button id="editBtn" style="display: none;" onclick="location.reload()">Edit</button>
+        <button id="sendBtn" style="display: none;" onclick="sendEmail()">Send</button>
+
+        <script src="QueryFormPage.js"></script>
+        <br><br><br>
+        E-mail :<a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGtvsbMPKnhNHpvRdVCbFcrbGCP?compose=new"> thevinisamarakoon@gmail.com</a>
+        <br>
+        <div class="p">© 2023 T-BELL Design.All right reserved</div>
+    </body>
+</html>

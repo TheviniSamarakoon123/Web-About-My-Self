@@ -1,0 +1,73 @@
+/*---Navigation Bar---*/
+.logo img {
+    height: 90px;
+    width: 90px;
+    padding-top: 15px;
+}
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+}
+nav ul li a {
+    
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+nav li a:hover{
+    background: #a638d1;
+    color: black;
+}
+
+/*---Background---*/
+body
+{
+	background-color: rgb(12, 108, 163);
+
+}
+
+/*---SVG Diagram---*/
+.container{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.svgrect{
+    fill:rgb(0, 0, 0) !important;
+}   
+.svg_sections{
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    fill:rgb(79, 225, 220) !important;
+}
+.svg_lines{
+    stroke:rgb(177, 207, 7);
+    stroke-width:4px;
+}
+.sitemap{
+    fill:rgb(177, 207, 7);
+    font-size:28px;
+    font-family:poppins;
+}
+
+/*---Footer---*/
+.p
+{
+    font-size: 13px;
+    font-family: sans-serif;
+    background-position: bottom;
+}

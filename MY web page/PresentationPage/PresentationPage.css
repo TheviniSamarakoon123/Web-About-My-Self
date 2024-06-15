@@ -1,0 +1,34 @@
+/*---Background---*/
+body
+{
+	background-image: url("Background.jpg");
+	background-size: cover;
+	background-repeat: none;
+}
+
+/*---PresentationPage---*/
+h1
+{
+	color:black;
+	animation-name: example;
+  	animation-duration: 3s;
+	font-family:'Times New Roman', Times, serif;
+	font-weight: normal;
+	font-size: 60px;
+	line-height: 6px;
+	text-align: center;
+	margin: 5% auto 50;
+}
+a{
+	text-align: center;
+}
+
+/*---Footer---*/
+.p
+{
+    font-size: 13px;
+    font-family: sans-serif;
+    background-position: bottom;
+    left: 10px;
+    top: 150px;
+}
